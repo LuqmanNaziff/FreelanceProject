@@ -42,9 +42,10 @@ export const DisplayCard = () => {
   };
 
   const sliderSettings = {
-    infinite: data.length > 1, // Set infinite to true only if there is more than one item
+    infinite: data.length > 1, // Set infinite to true only if there is more than one item 
+    
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     adaptiveHeight: true,
   };
